@@ -1,0 +1,9 @@
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/actool/_PartialAppManifest.items
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/optimized/
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/bin/iPhoneSimulator/Debug/SmoothBoards.exe.mdb
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/bin/iPhoneSimulator/Debug/SmoothBoards.exe
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/SmoothBoards.exe
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/SmoothBoards.exe.mdb
