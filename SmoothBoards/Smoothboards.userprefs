@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{B1F39F94-38EC-4019-88F0-7680829562E5}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmoothBoards/Main.storyboard">
     <Files>
       <File FileName="SmoothBoards/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="SmoothBoards/Info.plist" />
+      <File FileName="SmoothBoards/Main.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

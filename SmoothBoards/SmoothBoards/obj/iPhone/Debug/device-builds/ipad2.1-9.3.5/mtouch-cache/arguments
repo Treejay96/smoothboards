@@ -1,0 +1,37 @@
+# Version: 10.8.0.175 (d15-1: a04678c2)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe \
+	--cache \
+	/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/device-builds/ipad2.1-9.3.5/mtouch-cache \
+	--dev \
+	/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/bin/iPhone/Debug/device-builds/ipad2.1-9.3.5/SmoothBoards.app \
+	--executable \
+	SmoothBoards \
+	--fastdev \
+	--debug \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.3 \
+	--targetver \
+	9.3 \
+	--aot-options=-O=float32 \
+	--http-message-handler=HttpClientHandler \
+	--abi=armv7 \
+	--symbollist \
+	/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/device-builds/ipad2.1-9.3.5/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/bin/iPhone/Debug/SmoothBoards.exe \

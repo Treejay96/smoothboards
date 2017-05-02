@@ -1,0 +1,9 @@
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/device-builds/ipad2.1-9.3.5/ibtool/_BundleResourceWithLogicalName.items
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/device-builds/ipad2.1-9.3.5/actool/_PartialAppManifest.items
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/device-builds/ipad2.1-9.3.5/actool/_BundleResourceWithLogicalName.items
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/device-builds/ipad2.1-9.3.5/optimized/
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/bin/iPhone/Debug/SmoothBoards.exe.mdb
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/bin/iPhone/Debug/SmoothBoards.exe
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/SmoothBoards.exe
+/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhone/Debug/SmoothBoards.exe.mdb
