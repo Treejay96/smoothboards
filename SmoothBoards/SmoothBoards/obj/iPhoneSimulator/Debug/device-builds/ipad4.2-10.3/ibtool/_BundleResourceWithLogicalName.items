@@ -17,14 +17,6 @@
       <LogicalName>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/ibtool-link/Main.storyboardc/220-view-221.nib">
-      <LogicalName>Main.storyboardc/220-view-221.nib</LogicalName>
-      <Optimize>false</Optimize>
-    </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/ibtool-link/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib">
-      <LogicalName>Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib</LogicalName>
-      <Optimize>false</Optimize>
-    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/ibtool-link/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib">
       <LogicalName>Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib</LogicalName>
       <Optimize>false</Optimize>
@@ -33,8 +25,8 @@
       <LogicalName>Main.storyboardc/Info.plist</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/ibtool-link/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib">
-      <LogicalName>Main.storyboardc/UITabBarController-49e-Tb-3d3.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/ibtool-link/Main.storyboardc/UIViewController-9pv-A4-QxB.nib">
+      <LogicalName>Main.storyboardc/UIViewController-9pv-A4-QxB.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
   </ItemGroup>

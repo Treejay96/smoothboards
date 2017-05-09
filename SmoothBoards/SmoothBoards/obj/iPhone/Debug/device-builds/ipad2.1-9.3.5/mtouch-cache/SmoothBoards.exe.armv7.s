@@ -376,22 +376,78 @@ bl _p_6
 Lme_d:
 .text
 	.align 2
+	.no_dead_strip SmoothBoards_FirstViewController_get_Home
+SmoothBoards_FirstViewController_get_Home:
+.file 4 "/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/FirstViewController.designer.cs"
+.loc 4 18 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 108
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,224,157,229,68,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,8,0,157,229,24,0,144,229,0,96,160,225,0,224,157,229,128,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,223,141,226,64,1,189,232,128,128,189,232
+
+Lme_e:
+.text
+	.align 2
+	.no_dead_strip SmoothBoards_FirstViewController_set_Home_UIKit_UIView
+SmoothBoards_FirstViewController_set_Home_UIKit_UIView:
+.loc 4 18 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 112
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225,8,0,157,229,12,16,157,229,16,16,141,229,24,16,128,229,6,15,128,226
+bl _p_3
+
+	.byte 16,0,157,229,0,224,157,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,7,223,141,226,0,1,189,232
+	.byte 128,128,189,232
+
+Lme_f:
+.text
+	.align 2
 	.no_dead_strip SmoothBoards_FirstViewController_ReleaseDesignerOutlets
 SmoothBoards_FirstViewController_ReleaseDesignerOutlets:
-.file 4 "/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/FirstViewController.designer.cs"
-.loc 4 14 0 prologue_end
+.loc 4 21 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_SmoothBoards_got - . + 108
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,4,223,77,226,0,160,160,225,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 116
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225
-.loc 4 15 0
+.loc 4 22 0
 
-	.byte 0,224,157,229,112,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,132,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
+	.byte 0,224,157,229,112,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229,136,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
+bl _p_7
 
-Lme_e:
+	.byte 8,0,141,229,0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,15,80,227
+	.byte 47,0,0,10,0,224,157,229,200,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+.loc 4 23 0
+
+	.byte 0,224,157,229,220,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229,244,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
+bl _p_7
+
+	.byte 8,0,141,229,0,224,157,229,20,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,16,157,229,1,0,160,225
+	.byte 0,224,209,229
+bl _p_8
+.loc 4 24 0
+
+	.byte 0,224,157,229,56,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,224,157,229
+	.byte 84,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,31,160,227
+bl _p_9
+.loc 4 25 0
+
+	.byte 0,224,157,229,116,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+.loc 4 26 0
+
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,144,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229
+	.byte 164,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,223,141,226,0,5,189,232,128,128,189,232
+
+Lme_10:
 .text
 	.align 2
 	.no_dead_strip SmoothBoards_SecondViewController__ctor_intptr
@@ -400,7 +456,7 @@ SmoothBoards_SecondViewController__ctor_intptr:
 .loc 5 9 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_SmoothBoards_got - . + 112
+	.long mono_aot_SmoothBoards_got - . + 120
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,8,0,157,229,12,16,157,229
@@ -413,7 +469,7 @@ bl _p_4
 	.byte 0,224,157,229,148,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,168,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_f:
+Lme_11:
 .text
 	.align 2
 	.no_dead_strip SmoothBoards_SecondViewController_ViewDidLoad
@@ -421,7 +477,7 @@ SmoothBoards_SecondViewController_ViewDidLoad:
 .loc 5 15 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_SmoothBoards_got - . + 116
+	.long mono_aot_SmoothBoards_got - . + 124
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225
@@ -435,7 +491,7 @@ bl _p_5
 	.byte 0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,188,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,7,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_10:
+Lme_12:
 .text
 	.align 2
 	.no_dead_strip SmoothBoards_SecondViewController_DidReceiveMemoryWarning
@@ -443,7 +499,7 @@ SmoothBoards_SecondViewController_DidReceiveMemoryWarning:
 .loc 5 21 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_SmoothBoards_got - . + 120
+	.long mono_aot_SmoothBoards_got - . + 128
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225
@@ -457,25 +513,165 @@ bl _p_6
 	.byte 0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,188,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,7,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_11:
+Lme_13:
+.text
+	.align 2
+	.no_dead_strip SmoothBoards_SecondViewController_get_Boards
+SmoothBoards_SecondViewController_get_Boards:
+.file 6 "/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/SecondViewController.designer.cs"
+.loc 6 18 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 132
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,224,157,229,68,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,8,0,157,229,24,0,144,229,0,96,160,225,0,224,157,229,128,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,223,141,226,64,1,189,232,128,128,189,232
+
+Lme_14:
+.text
+	.align 2
+	.no_dead_strip SmoothBoards_SecondViewController_set_Boards_UIKit_UIView
+SmoothBoards_SecondViewController_set_Boards_UIKit_UIView:
+.loc 6 18 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 136
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225,8,0,157,229,12,16,157,229,16,16,141,229,24,16,128,229,6,15,128,226
+bl _p_3
+
+	.byte 16,0,157,229,0,224,157,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,7,223,141,226,0,1,189,232
+	.byte 128,128,189,232
+
+Lme_15:
 .text
 	.align 2
 	.no_dead_strip SmoothBoards_SecondViewController_ReleaseDesignerOutlets
 SmoothBoards_SecondViewController_ReleaseDesignerOutlets:
-.file 6 "/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/SecondViewController.designer.cs"
-.loc 6 14 0 prologue_end
+.loc 6 21 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_SmoothBoards_got - . + 124
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,4,223,77,226,0,160,160,225,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 140
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225
-.loc 6 15 0
+.loc 6 22 0
+
+	.byte 0,224,157,229,112,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229,136,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
+bl _p_10
+
+	.byte 8,0,141,229,0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,15,80,227
+	.byte 47,0,0,10,0,224,157,229,200,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+.loc 6 23 0
+
+	.byte 0,224,157,229,220,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229,244,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
+bl _p_10
+
+	.byte 8,0,141,229,0,224,157,229,20,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,16,157,229,1,0,160,225
+	.byte 0,224,209,229
+bl _p_8
+.loc 6 24 0
+
+	.byte 0,224,157,229,56,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,224,157,229
+	.byte 84,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,31,160,227
+bl _p_11
+.loc 6 25 0
+
+	.byte 0,224,157,229,116,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+.loc 6 26 0
+
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,144,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229
+	.byte 164,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,223,141,226,0,5,189,232,128,128,189,232
+
+Lme_16:
+.text
+	.align 2
+	.no_dead_strip SmoothBoards_FAQViewController__ctor_intptr
+SmoothBoards_FAQViewController__ctor_intptr:
+.file 7 "/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/FAQViewController.cs"
+.loc 7 9 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 144
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225,8,0,157,229,12,16,157,229
+bl _p_4
+.loc 7 10 0
+
+	.byte 0,224,157,229,128,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+.loc 7 11 0
+
+	.byte 0,224,157,229,148,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,168,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
+
+Lme_17:
+.text
+	.align 2
+	.no_dead_strip SmoothBoards_FAQViewController_ViewDidLoad
+SmoothBoards_FAQViewController_ViewDidLoad:
+.loc 7 14 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 148
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225
+.loc 7 15 0
+
+	.byte 0,224,157,229,112,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,16,0,141,229,0,224,157,229
+	.byte 140,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229
+bl _p_5
+.loc 7 17 0
+
+	.byte 0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,188,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,7,223,141,226,0,1,189,232,128,128,189,232
+
+Lme_18:
+.text
+	.align 2
+	.no_dead_strip SmoothBoards_FAQViewController_DidReceiveMemoryWarning
+SmoothBoards_FAQViewController_DidReceiveMemoryWarning:
+.loc 7 20 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 152
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225
+.loc 7 21 0
+
+	.byte 0,224,157,229,112,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,16,0,141,229,0,224,157,229
+	.byte 140,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229
+bl _p_6
+.loc 7 23 0
+
+	.byte 0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,188,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,7,223,141,226,0,1,189,232,128,128,189,232
+
+Lme_19:
+.text
+	.align 2
+	.no_dead_strip SmoothBoards_FAQViewController_ReleaseDesignerOutlets
+SmoothBoards_FAQViewController_ReleaseDesignerOutlets:
+.file 8 "/Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/FAQViewController.designer.cs"
+.loc 8 18 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_SmoothBoards_got - . + 156
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225
+.loc 8 19 0
 
 	.byte 0,224,157,229,112,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,132,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_12:
+Lme_1a:
 .text
 	.align 3
 jit_code_end:
@@ -499,11 +695,19 @@ bl SmoothBoards_AppDelegate_WillTerminate_UIKit_UIApplication
 bl SmoothBoards_FirstViewController__ctor_intptr
 bl SmoothBoards_FirstViewController_ViewDidLoad
 bl SmoothBoards_FirstViewController_DidReceiveMemoryWarning
+bl SmoothBoards_FirstViewController_get_Home
+bl SmoothBoards_FirstViewController_set_Home_UIKit_UIView
 bl SmoothBoards_FirstViewController_ReleaseDesignerOutlets
 bl SmoothBoards_SecondViewController__ctor_intptr
 bl SmoothBoards_SecondViewController_ViewDidLoad
 bl SmoothBoards_SecondViewController_DidReceiveMemoryWarning
+bl SmoothBoards_SecondViewController_get_Boards
+bl SmoothBoards_SecondViewController_set_Boards_UIKit_UIView
 bl SmoothBoards_SecondViewController_ReleaseDesignerOutlets
+bl SmoothBoards_FAQViewController__ctor_intptr
+bl SmoothBoards_FAQViewController_ViewDidLoad
+bl SmoothBoards_FAQViewController_DidReceiveMemoryWarning
+bl SmoothBoards_FAQViewController_ReleaseDesignerOutlets
 bl method_addresses
 method_addresses_end:
 
@@ -531,8 +735,9 @@ unwind_info:
 	.byte 14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,128,10,68,14,12,68,8,8
 	.byte 14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,160,10,68,14,12,68,8,8
 	.byte 14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,180,10,68,14,12,68,8,8
-	.byte 14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,124,10,68,14,12,68,8,8
-	.byte 14,8,68,11
+	.byte 14,8,68,11,36,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,32,3,156,1,10,68,14,16
+	.byte 68,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,124,10,68
+	.byte 14,12,68,8,8,14,8,68,11
 
 .text
 	.align 4
@@ -543,41 +748,71 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SmoothBoards_got - . + 140,318
+	.long mono_aot_SmoothBoards_got - . + 172,350
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SmoothBoards_got - . + 144,323
+	.long mono_aot_SmoothBoards_got - . + 176,355
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
 plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SmoothBoards_got - . + 148,328
+	.long mono_aot_SmoothBoards_got - . + 180,360
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SmoothBoards_got - . + 152,335
+	.long mono_aot_SmoothBoards_got - . + 184,367
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SmoothBoards_got - . + 156,340
+	.long mono_aot_SmoothBoards_got - . + 188,372
 	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
 plt_UIKit_UIViewController_DidReceiveMemoryWarning:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SmoothBoards_got - . + 160,345
+	.long mono_aot_SmoothBoards_got - . + 192,377
+	.no_dead_strip plt_SmoothBoards_FirstViewController_get_Home
+plt_SmoothBoards_FirstViewController_get_Home:
+_p_7:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_SmoothBoards_got - . + 196,382
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_8:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_SmoothBoards_got - . + 200,384
+	.no_dead_strip plt_SmoothBoards_FirstViewController_set_Home_UIKit_UIView
+plt_SmoothBoards_FirstViewController_set_Home_UIKit_UIView:
+_p_9:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_SmoothBoards_got - . + 204,389
+	.no_dead_strip plt_SmoothBoards_SecondViewController_get_Boards
+plt_SmoothBoards_SecondViewController_get_Boards:
+_p_10:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_SmoothBoards_got - . + 208,391
+	.no_dead_strip plt_SmoothBoards_SecondViewController_set_Boards_UIKit_UIView
+plt_SmoothBoards_SecondViewController_set_Boards_UIKit_UIView:
+_p_11:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_SmoothBoards_got - . + 212,393
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_SmoothBoards_got, 168
+.lcomm mono_aot_SmoothBoards_got, 220
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -600,7 +835,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "A3AE1FA6-F370-454B-9B86-E42603B5FBD7"
+	.asciz "CA5308ED-F265-49A1-A01D-8F84DFBA9202"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -677,13 +912,13 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampoline_addresses
 
-	.long 35,168,7,20,70,923871743,0,2125
-	.long 128,4,4,10,0,15,2792,656
-	.long 400,200,0,320,368,256,0,192
-	.long 48,0,0,0,0,0,0,0
+	.long 43,220,12,28,70,923871743,0,3061
+	.long 128,4,4,10,0,15,3768,696
+	.long 440,208,0,344,408,264,0,200
+	.long 56,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 31,86,146,168,75,54,113,249,90,248,43,94,190,45,164,99
+	.byte 201,255,61,246,127,142,213,203,239,66,249,216,237,22,69,10
 	.globl _mono_aot_module_SmoothBoards_info
 	.align 2
 _mono_aot_module_SmoothBoards_info:
@@ -1477,24 +1712,29 @@ LTDIE_13:
 	.byte 5
 	.asciz "SmoothBoards_FirstViewController"
 
-	.byte 24,16
+	.byte 28,16
 LDIFF_SYM108=LTDIE_14 - Ldebug_info_start
 	.long LDIFF_SYM108
-	.byte 2,35,0,0,7
+	.byte 2,35,0,6
+	.asciz "<Home>k__BackingField"
+
+LDIFF_SYM109=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM109
+	.byte 2,35,24,0,7
 	.asciz "SmoothBoards_FirstViewController"
 
-LDIFF_SYM109=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM109
+LDIFF_SYM110=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM110
 LTDIE_13_POINTER:
 
 	.byte 13
-LDIFF_SYM110=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM110
+LDIFF_SYM111=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM111
 LTDIE_13_REFERENCE:
 
 	.byte 14
-LDIFF_SYM111=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM111
+LDIFF_SYM112=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM112
 	.byte 2
 	.asciz "SmoothBoards.FirstViewController:.ctor"
 	.asciz "SmoothBoards_FirstViewController__ctor_intptr"
@@ -1506,27 +1746,27 @@ LDIFF_SYM111=LTDIE_13 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM112=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM112
+LDIFF_SYM113=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM113
 	.byte 2,125,8,3
 	.asciz "handle"
 
-LDIFF_SYM113=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM113
+LDIFF_SYM114=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM114
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM114=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM114
+LDIFF_SYM115=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM115
 Lfde11_start:
 
 	.long 0
 	.align 2
 	.long SmoothBoards_FirstViewController__ctor_intptr
 
-LDIFF_SYM115=Lme_b - SmoothBoards_FirstViewController__ctor_intptr
-	.long LDIFF_SYM115
+LDIFF_SYM116=Lme_b - SmoothBoards_FirstViewController__ctor_intptr
+	.long LDIFF_SYM116
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,160,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde11_end:
@@ -1544,22 +1784,22 @@ Lfde11_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM116=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM116
+LDIFF_SYM117=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM117
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM117=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM117
+LDIFF_SYM118=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM118
 Lfde12_start:
 
 	.long 0
 	.align 2
 	.long SmoothBoards_FirstViewController_ViewDidLoad
 
-LDIFF_SYM118=Lme_c - SmoothBoards_FirstViewController_ViewDidLoad
-	.long LDIFF_SYM118
+LDIFF_SYM119=Lme_c - SmoothBoards_FirstViewController_ViewDidLoad
+	.long LDIFF_SYM119
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,180,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde12_end:
@@ -1577,22 +1817,22 @@ Lfde12_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM119=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM119
+LDIFF_SYM120=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM120
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM120=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM120
+LDIFF_SYM121=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM121
 Lfde13_start:
 
 	.long 0
 	.align 2
 	.long SmoothBoards_FirstViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM121=Lme_d - SmoothBoards_FirstViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM121
+LDIFF_SYM122=Lme_d - SmoothBoards_FirstViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM122
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,180,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde13_end:
@@ -1600,35 +1840,112 @@ Lfde13_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "SmoothBoards.FirstViewController:ReleaseDesignerOutlets"
-	.asciz "SmoothBoards_FirstViewController_ReleaseDesignerOutlets"
+	.asciz "SmoothBoards.FirstViewController:get_Home"
+	.asciz "SmoothBoards_FirstViewController_get_Home"
 
-	.byte 4,14
-	.long SmoothBoards_FirstViewController_ReleaseDesignerOutlets
+	.byte 4,18
+	.long SmoothBoards_FirstViewController_get_Home
 	.long Lme_e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM122=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM122
-	.byte 2,125,8,0
+LDIFF_SYM123=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM123
+	.byte 2,125,8,11
+	.asciz "V_0"
+
+LDIFF_SYM124=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM124
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM123=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM123
+LDIFF_SYM125=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM125
 Lfde14_start:
+
+	.long 0
+	.align 2
+	.long SmoothBoards_FirstViewController_get_Home
+
+LDIFF_SYM126=Lme_e - SmoothBoards_FirstViewController_get_Home
+	.long LDIFF_SYM126
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,2,120,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde14_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "SmoothBoards.FirstViewController:set_Home"
+	.asciz "SmoothBoards_FirstViewController_set_Home_UIKit_UIView"
+
+	.byte 4,18
+	.long SmoothBoards_FirstViewController_set_Home_UIKit_UIView
+	.long Lme_f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM127=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM127
+	.byte 2,125,8,3
+	.asciz "value"
+
+LDIFF_SYM128=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM128
+	.byte 2,125,12,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM129=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM129
+Lfde15_start:
+
+	.long 0
+	.align 2
+	.long SmoothBoards_FirstViewController_set_Home_UIKit_UIView
+
+LDIFF_SYM130=Lme_f - SmoothBoards_FirstViewController_set_Home_UIKit_UIView
+	.long LDIFF_SYM130
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,136,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde15_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "SmoothBoards.FirstViewController:ReleaseDesignerOutlets"
+	.asciz "SmoothBoards_FirstViewController_ReleaseDesignerOutlets"
+
+	.byte 4,21
+	.long SmoothBoards_FirstViewController_ReleaseDesignerOutlets
+	.long Lme_10
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM131=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM131
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM132=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM132
+Lfde16_start:
 
 	.long 0
 	.align 2
 	.long SmoothBoards_FirstViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM124=Lme_e - SmoothBoards_FirstViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM124
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,124,10,68,14,12,68,8,8,14,8,68,11
+LDIFF_SYM133=Lme_10 - SmoothBoards_FirstViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM133
+	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,32,3,156,1,10,68,14,16,68,8,8,8,10,14,8,68
+	.byte 11
 	.align 2
-Lfde14_end:
+Lfde16_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_15:
@@ -1636,59 +1953,64 @@ LTDIE_15:
 	.byte 5
 	.asciz "SmoothBoards_SecondViewController"
 
-	.byte 24,16
-LDIFF_SYM125=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM125
-	.byte 2,35,0,0,7
+	.byte 28,16
+LDIFF_SYM134=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM134
+	.byte 2,35,0,6
+	.asciz "<Boards>k__BackingField"
+
+LDIFF_SYM135=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM135
+	.byte 2,35,24,0,7
 	.asciz "SmoothBoards_SecondViewController"
 
-LDIFF_SYM126=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM126
+LDIFF_SYM136=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM136
 LTDIE_15_POINTER:
 
 	.byte 13
-LDIFF_SYM127=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM127
+LDIFF_SYM137=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM137
 LTDIE_15_REFERENCE:
 
 	.byte 14
-LDIFF_SYM128=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM128
+LDIFF_SYM138=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM138
 	.byte 2
 	.asciz "SmoothBoards.SecondViewController:.ctor"
 	.asciz "SmoothBoards_SecondViewController__ctor_intptr"
 
 	.byte 5,9
 	.long SmoothBoards_SecondViewController__ctor_intptr
-	.long Lme_f
+	.long Lme_11
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM129=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM129
+LDIFF_SYM139=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM139
 	.byte 2,125,8,3
 	.asciz "handle"
 
-LDIFF_SYM130=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM130
+LDIFF_SYM140=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM140
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM131=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM131
-Lfde15_start:
+LDIFF_SYM141=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM141
+Lfde17_start:
 
 	.long 0
 	.align 2
 	.long SmoothBoards_SecondViewController__ctor_intptr
 
-LDIFF_SYM132=Lme_f - SmoothBoards_SecondViewController__ctor_intptr
-	.long LDIFF_SYM132
+LDIFF_SYM142=Lme_11 - SmoothBoards_SecondViewController__ctor_intptr
+	.long LDIFF_SYM142
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,160,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde15_end:
+Lfde17_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -1698,30 +2020,30 @@ Lfde15_end:
 
 	.byte 5,15
 	.long SmoothBoards_SecondViewController_ViewDidLoad
-	.long Lme_10
+	.long Lme_12
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM133=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM133
+LDIFF_SYM143=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM143
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM134=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM134
-Lfde16_start:
+LDIFF_SYM144=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM144
+Lfde18_start:
 
 	.long 0
 	.align 2
 	.long SmoothBoards_SecondViewController_ViewDidLoad
 
-LDIFF_SYM135=Lme_10 - SmoothBoards_SecondViewController_ViewDidLoad
-	.long LDIFF_SYM135
+LDIFF_SYM145=Lme_12 - SmoothBoards_SecondViewController_ViewDidLoad
+	.long LDIFF_SYM145
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,180,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde16_end:
+Lfde18_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -1731,30 +2053,106 @@ Lfde16_end:
 
 	.byte 5,21
 	.long SmoothBoards_SecondViewController_DidReceiveMemoryWarning
-	.long Lme_11
+	.long Lme_13
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM136=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM136
+LDIFF_SYM146=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM146
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM137=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM137
-Lfde17_start:
+LDIFF_SYM147=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM147
+Lfde19_start:
 
 	.long 0
 	.align 2
 	.long SmoothBoards_SecondViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM138=Lme_11 - SmoothBoards_SecondViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM138
+LDIFF_SYM148=Lme_13 - SmoothBoards_SecondViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM148
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,180,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde17_end:
+Lfde19_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "SmoothBoards.SecondViewController:get_Boards"
+	.asciz "SmoothBoards_SecondViewController_get_Boards"
+
+	.byte 6,18
+	.long SmoothBoards_SecondViewController_get_Boards
+	.long Lme_14
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM149=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM149
+	.byte 2,125,8,11
+	.asciz "V_0"
+
+LDIFF_SYM150=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM150
+	.byte 1,86,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM151=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM151
+Lfde20_start:
+
+	.long 0
+	.align 2
+	.long SmoothBoards_SecondViewController_get_Boards
+
+LDIFF_SYM152=Lme_14 - SmoothBoards_SecondViewController_get_Boards
+	.long LDIFF_SYM152
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,2,120,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.align 2
+Lfde20_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "SmoothBoards.SecondViewController:set_Boards"
+	.asciz "SmoothBoards_SecondViewController_set_Boards_UIKit_UIView"
+
+	.byte 6,18
+	.long SmoothBoards_SecondViewController_set_Boards_UIKit_UIView
+	.long Lme_15
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM153=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM153
+	.byte 2,125,8,3
+	.asciz "value"
+
+LDIFF_SYM154=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM154
+	.byte 2,125,12,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM155=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM155
+Lfde21_start:
+
+	.long 0
+	.align 2
+	.long SmoothBoards_SecondViewController_set_Boards_UIKit_UIView
+
+LDIFF_SYM156=Lme_15 - SmoothBoards_SecondViewController_set_Boards_UIKit_UIView
+	.long LDIFF_SYM156
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,136,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde21_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -1762,32 +2160,192 @@ Lfde17_end:
 	.asciz "SmoothBoards.SecondViewController:ReleaseDesignerOutlets"
 	.asciz "SmoothBoards_SecondViewController_ReleaseDesignerOutlets"
 
-	.byte 6,14
+	.byte 6,21
 	.long SmoothBoards_SecondViewController_ReleaseDesignerOutlets
-	.long Lme_12
+	.long Lme_16
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM139=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM139
-	.byte 2,125,8,0
+LDIFF_SYM157=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM157
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM140=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM140
-Lfde18_start:
+LDIFF_SYM158=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM158
+Lfde22_start:
 
 	.long 0
 	.align 2
 	.long SmoothBoards_SecondViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM141=Lme_12 - SmoothBoards_SecondViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM141
+LDIFF_SYM159=Lme_16 - SmoothBoards_SecondViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM159
+	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,32,3,156,1,10,68,14,16,68,8,8,8,10,14,8,68
+	.byte 11
+	.align 2
+Lfde22_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_16:
+
+	.byte 5
+	.asciz "SmoothBoards_FAQViewController"
+
+	.byte 24,16
+LDIFF_SYM160=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM160
+	.byte 2,35,0,0,7
+	.asciz "SmoothBoards_FAQViewController"
+
+LDIFF_SYM161=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM161
+LTDIE_16_POINTER:
+
+	.byte 13
+LDIFF_SYM162=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM162
+LTDIE_16_REFERENCE:
+
+	.byte 14
+LDIFF_SYM163=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM163
+	.byte 2
+	.asciz "SmoothBoards.FAQViewController:.ctor"
+	.asciz "SmoothBoards_FAQViewController__ctor_intptr"
+
+	.byte 7,9
+	.long SmoothBoards_FAQViewController__ctor_intptr
+	.long Lme_17
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM164=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM164
+	.byte 2,125,8,3
+	.asciz "handle"
+
+LDIFF_SYM165=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM165
+	.byte 2,125,12,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM166=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM166
+Lfde23_start:
+
+	.long 0
+	.align 2
+	.long SmoothBoards_FAQViewController__ctor_intptr
+
+LDIFF_SYM167=Lme_17 - SmoothBoards_FAQViewController__ctor_intptr
+	.long LDIFF_SYM167
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,160,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde23_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "SmoothBoards.FAQViewController:ViewDidLoad"
+	.asciz "SmoothBoards_FAQViewController_ViewDidLoad"
+
+	.byte 7,14
+	.long SmoothBoards_FAQViewController_ViewDidLoad
+	.long Lme_18
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM168=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM168
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM169=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM169
+Lfde24_start:
+
+	.long 0
+	.align 2
+	.long SmoothBoards_FAQViewController_ViewDidLoad
+
+LDIFF_SYM170=Lme_18 - SmoothBoards_FAQViewController_ViewDidLoad
+	.long LDIFF_SYM170
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,180,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "SmoothBoards.FAQViewController:DidReceiveMemoryWarning"
+	.asciz "SmoothBoards_FAQViewController_DidReceiveMemoryWarning"
+
+	.byte 7,20
+	.long SmoothBoards_FAQViewController_DidReceiveMemoryWarning
+	.long Lme_19
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM171=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM171
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM172=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM172
+Lfde25_start:
+
+	.long 0
+	.align 2
+	.long SmoothBoards_FAQViewController_DidReceiveMemoryWarning
+
+LDIFF_SYM173=Lme_19 - SmoothBoards_FAQViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM173
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,180,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde25_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "SmoothBoards.FAQViewController:ReleaseDesignerOutlets"
+	.asciz "SmoothBoards_FAQViewController_ReleaseDesignerOutlets"
+
+	.byte 8,18
+	.long SmoothBoards_FAQViewController_ReleaseDesignerOutlets
+	.long Lme_1a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM174=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM174
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM175=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM175
+Lfde26_start:
+
+	.long 0
+	.align 2
+	.long SmoothBoards_FAQViewController_ReleaseDesignerOutlets
+
+LDIFF_SYM176=Lme_1a - SmoothBoards_FAQViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM176
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,124,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde18_end:
+Lfde26_end:
 
 .section __DWARF, __debug_info,regular,debug
 

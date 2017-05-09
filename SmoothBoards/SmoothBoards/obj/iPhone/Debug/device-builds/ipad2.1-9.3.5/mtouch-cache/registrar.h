@@ -19,6 +19,7 @@
 @class AppDelegate;
 @class FirstViewController;
 @class SecondViewController;
+@class FAQViewController;
 @class __NSObject_Disposer;
 @class __UIGestureRecognizerToken;
 @class __UIGestureRecognizerParameterlessToken;
