@@ -5,11 +5,11 @@
       <File FileName="SmoothBoards/Main.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SmoothBoards PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.09548e340adf58bf1a4954762a799514a0c8ca53" />
+  <MonoDevelop.Ide.ItemProperties.SmoothBoards PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.44FE1B49-0F72-40EB-8A14-59B6CC84E506" />
   <MultiItemStartupConfigurations />
 </Properties>
