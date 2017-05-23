@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{B1F39F94-38EC-4019-88F0-7680829562E5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SmoothBoards/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmoothBoards/Main.storyboard">
     <Files>
       <File FileName="SmoothBoards/Main.storyboard" />
-      <File FileName="SmoothBoards/FAQViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="SmoothBoards/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="SmoothBoards/FAQViewController.cs" Line="1" Column="1" />
-      <File FileName="SmoothBoards/Main.cs" Line="12" Column="1" />
-      <File FileName="SmoothBoards/Info.plist" />
+      <File FileName="SmoothBoards/LaunchScreen.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

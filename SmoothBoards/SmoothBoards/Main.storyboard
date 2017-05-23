@@ -29,7 +29,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <connections>
                             <outletCollection id="405" property="gestureRecognizers" destination="404"/>
-                            <outletCollection id="572" property="gestureRecognizers" destination="571"/>
                         </connections>
                         <variation key="default">
                             <mask key="subviews">
@@ -49,7 +48,6 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="404"/>
-                <swipeGestureRecognizer direction="right" id="571"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
@@ -85,14 +83,6 @@
                     <tabBarItem key="tabBarItem" title="Boards" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
-                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="566">
-                    <rect key="frame" x="1065" y="654" width="240" height="50"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </collectionReusableView>
-                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="567">
-                    <rect key="frame" x="954" y="728" width="240" height="50"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </collectionReusableView>
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
@@ -116,7 +106,6 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="403"/>
-                <swipeGestureRecognizer direction="right" id="570"/>
             </objects>
             <point key="canvasLocation" x="-606" y="305"/>
         </scene>
