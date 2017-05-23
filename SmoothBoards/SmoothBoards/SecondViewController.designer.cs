@@ -13,16 +13,8 @@ namespace SmoothBoards
     [Register ("SecondViewController")]
     partial class SecondViewController
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIView Boards { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (Boards != null) {
-                Boards.Dispose ();
-                Boards = null;
-            }
         }
     }
 }

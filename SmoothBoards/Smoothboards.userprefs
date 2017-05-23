@@ -1,8 +1,12 @@
 ﻿<Properties StartupConfiguration="{B1F39F94-38EC-4019-88F0-7680829562E5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SmoothBoards/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmoothBoards/Info.plist">
     <Files>
       <File FileName="SmoothBoards/Main.storyboard" />
+      <File FileName="SmoothBoards/FAQViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="SmoothBoards/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="SmoothBoards/FAQViewController.cs" Line="1" Column="1" />
       <File FileName="SmoothBoards/Main.cs" Line="12" Column="1" />
+      <File FileName="SmoothBoards/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -10,6 +14,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SmoothBoards PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.44FE1B49-0F72-40EB-8A14-59B6CC84E506" />
+  <MonoDevelop.Ide.ItemProperties.SmoothBoards PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.78B8A847-2D14-48BD-BE42-6E170749F20E" />
   <MultiItemStartupConfigurations />
 </Properties>

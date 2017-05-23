@@ -14,3 +14,10 @@
 /Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/SmoothBoards.exe
 /Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/SmoothBoards.exe.mdb
 /Users/casperbraat/GitHub/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad4.2-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/actool/_PartialAppManifest.items
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/optimized/Afbeelding1.png
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-10.3/optimized/
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/bin/iPhoneSimulator/Debug/SmoothBoards.pdb
+/Users/pieter/Desktop/smoothboards/SmoothBoards/SmoothBoards/obj/iPhoneSimulator/Debug/SmoothBoards.pdb
